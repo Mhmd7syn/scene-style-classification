@@ -1,42 +1,35 @@
 # Scene Style Classification
 
-## Project Description
-This project is designed to classify scenes into different styles using machine learning techniques. It leverages various algorithms to analyze and predict scene styles effectively, making it useful for a range of applications from image sorting to artistic style transfer.
+## Project Overview
+This project focuses on classifying scene styles using various machine learning techniques. The aim is to develop a model that can accurately predict the style of a given scene using a dataset of labeled images.
 
-## Features
-- **Multiple Scene Style Classifications**: Supports various styles like natural, urban, etc.
-- **User-friendly Interface**: Easy to use and integrate into existing systems.
-- **Modular Code**: Designed with modularity in mind for easy updates and maintenance
-- **Data Visualization**: Includes tools for visualizing the classification results.
+## File Structure
 
-## Installation Instructions
-To install and set up the Scene Style Classification project, follow these steps:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mhmd7syn/scene-style-classification.git
-   cd scene-style-classification
-   ```
-2. Install the necessary packages using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. (Optional) Set up a virtual environment for managing dependencies.
+The project consists of the following directories and files:
 
-## Usage Examples
-To use the classification model, run the following command:
+- **Models/**: This directory contains the trained models used for classification.
+  - `model_a.h5` - Description of model A.
+  - `model_b.h5` - Description of model B.
+
+- **Test_Script/**: This directory holds scripts used for testing the models.
+  - `test_model_a.py` - Script to test model A.
+  - `test_model_b.py` - Script to test model B.
+
+- **Notebooks/**: This directory contains Jupyter notebooks for analysis and exploration.
+  - `scene_style_classification_exploration.ipynb` - Jupyter notebook for initial data exploration and model training.
+
+- **Reports/**: This directory includes reports and documentation.
+  - `final_report.pdf` - Comprehensive report of the project.
+
+## Usage Instructions
+To run the test scripts, navigate to the `Test_Script/` directory and execute the desired script using Python:
 ```bash
-python classify.py --input image.jpg
+cd Test_Script
+python test_model_a.py
 ```
-This will process `image.jpg` and classify its scene style.
 
-## Project Structure
-```
-scene-style-classification/
-├── data/              # Directory for datasets
-├── models/            # Pre-trained models
-├── src/               # Source code for the project
-│   ├── classify.py    # Main classification script
-│   ├── utils.py       # Utility functions
-├── requirements.txt    # List of dependencies
-└── README.md          # Project documentation
-```
+## Conclusion
+This project demonstrates a method for classifying scene styles and provides valuable insights into the effectiveness of different models in this domain.
+
+## Date of Update
+Updated on: 2026-02-10 12:56:52 UTC
