@@ -1,5 +1,7 @@
 # Scene Style Classification
 
+🏆 **Achievement:** 2nd Place out of 37 Teams!
+
 **Competition Link:** [Kaggle - NN 26 Scene Style Classification](https://www.kaggle.com/competitions/nn-26-scene-style-classification)
 
 This repository contains the code and resources for a Neural Network image classification project aimed at identifying 17 distinct interior design styles from images. It features a custom Vision Transformer (ViT) implementation based on the CLIP architecture, alongside evaluations of several standard Convolutional Neural Networks (CNNs).
