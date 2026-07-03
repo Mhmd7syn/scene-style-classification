@@ -4,6 +4,9 @@
 
 **Competition Link:** [Kaggle - NN 26 Scene Style Classification](https://www.kaggle.com/competitions/nn-26-scene-style-classification)
 
+## Project Overview
+This project focuses on classifying scene styles using various machine learning techniques. The aim is to develop a model that can accurately predict the style of a given scene using a dataset of labeled images.
+
 This repository contains the code and resources for a Neural Network image classification project aimed at identifying 17 distinct interior design styles from images. It features a custom Vision Transformer (ViT) implementation based on the CLIP architecture, alongside evaluations of several standard Convolutional Neural Networks (CNNs).
 
 ## Classes
@@ -49,3 +52,6 @@ The project evaluates and compares various architectures:
    python "Test Script.py"
    ```
 4. Predictions will be saved as `.csv` files in the `Test Script/Submissions/` folder.
+
+## Conclusion
+This project demonstrates a method for classifying scene styles and provides valuable insights into the effectiveness of different models in this domain.
