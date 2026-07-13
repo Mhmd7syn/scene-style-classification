@@ -2,6 +2,8 @@
 
 🏆 **Achievement:** 2nd Place out of 37 Teams!
 
+![2nd Place Leaderboard](leaderboard_second_place.jpg)
+
 **Competition Link:** [Kaggle - NN 26 Scene Style Classification](https://www.kaggle.com/competitions/nn-26-scene-style-classification)
 
 ## Project Overview
